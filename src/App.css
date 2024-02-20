@@ -1,0 +1,70 @@
+/* App.css */
+
+.navbar-custom {
+  background-color: #004d99; /* Un azul más oscuro para mayor contraste */
+  color: #fff;
+}
+
+.navbar-custom .navbar-brand, .navbar-custom .nav-link {
+  color: #fff;
+}
+
+.form-custom .form-control {
+  margin-bottom: 15px;
+  border-radius: 0.25rem; /* Esquinas ligeramente redondeadas */
+}
+
+.btn-custom {
+  background-color: #0082e6; /* Un azul más claro */
+  color: #fff;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #0056b3; /* Un azul cuando se pasa el ratón */
+}
+
+.product-card {
+  width: 18rem; /* Mantiene la anchura fija */
+  height: auto; /* Altura automática según el contenido */
+  min-height: 400px; /* Altura mínima para mantener un tamaño consistente */
+  display: flex;
+  flex-direction: column; /* Organiza el contenido de la tarjeta verticalmente */
+  justify-content: space-between; /* Distribuye el espacio internamente */
+  margin-bottom: 20px; /* Añade un espacio debajo de cada tarjeta */
+}
+
+.product-card:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 768px) {
+  .form-custom {
+    padding: 10px;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
